@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.home,
+.services,
+.marketing,
+.contactus,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff ;
+}
+
+.home{
+  background-image: url(./images/one.jpg);
+}
+
+.services{
+  background-image: url(./images/four.jpg);
+}
+
+.contactUs{
+  background-image: url(./images/six.jpg);
+}
+
+.marketing{
+  background-image: url(./images/three.jpg);
+}
